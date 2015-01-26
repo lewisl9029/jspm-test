@@ -1,0 +1,7 @@
+{
+  "jspm": {
+    "dependencies": {
+      "remotestorage.js": "github:remotestorage/remotestorage.js@^0.11.1"
+    }
+  }
+}
