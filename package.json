@@ -1,7 +1,10 @@
 {
   "jspm": {
     "dependencies": {
-      "remotestorage.js": "github:remotestorage/remotestorage.js@^0.11.1"
+      "angular": "1.3.12",
+      "ionic": "1.0.0-beta.14",
+      "remotestorage.js": "github:remotestorage/remotestorage.js@^0.11.1",
+      "text": "^0.0.2"
     }
   }
 }
