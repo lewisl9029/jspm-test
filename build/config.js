@@ -1,32 +1,29 @@
 System.config({
+  "baseURL": "/",
+  "transpiler": "babel",
+  "babelOptions": {
+    "optional": [
+      "runtime"
+    ]
+  },
   "paths": {
     "*": "*.js",
-    "app/*": "lib/*.js",
-    "github:*": "jspm_packages/github/*.js"
+    "github:*": "jspm_packages/github/*.js",
+    "npm:*": "jspm_packages/npm/*.js"
   }
 });
 
 System.config({
   "map": {
-    "angular": "github:angular/bower-angular@1.3.12",
-    "ionic": "github:driftyco/ionic-bower@1.0.0-beta.14",
-    "remotestorage.js": "github:remotestorage/remotestorage.js@0.11.1",
-    "text": "github:systemjs/plugin-text@0.0.2",
-    "github:angular-ui/ui-router@0.2.13": {
-      "angular": "github:angular/bower-angular@1.3.12"
+    "babel": "npm:babel-core@5.2.17",
+    "babel-runtime": "npm:babel-runtime@5.2.17",
+    "core-js": "npm:core-js@0.9.8",
+    "node-forge": "npm:node-forge@0.6.26",
+    "github:jspm/nodelibs-process@0.1.1": {
+      "process": "npm:process@0.10.1"
     },
-    "github:angular/bower-angular-animate@1.3.12": {
-      "angular": "github:angular/bower-angular@1.3.12"
-    },
-    "github:angular/bower-angular-sanitize@1.3.12": {
-      "angular": "github:angular/bower-angular@1.3.12"
-    },
-    "github:driftyco/ionic-bower@1.0.0-beta.14": {
-      "angular": "github:angular/bower-angular@1.3.12",
-      "angular-animate": "github:angular/bower-angular-animate@1.3.12",
-      "angular-sanitize": "github:angular/bower-angular-sanitize@1.3.12",
-      "angular-ui-router": "github:angular-ui/ui-router@0.2.13",
-      "css": "github:systemjs/plugin-css@0.1.0"
+    "npm:core-js@0.9.8": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
     }
   }
 });
