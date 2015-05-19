@@ -1,5 +1,6 @@
-import forge from 'node-forge';
+import ionic from 'driftyco/ionic';
+import toastr from 'angular-toastr';
 
-let app = forge.util.createBuffer();
+let app = ionic;
 
 export default app;
