@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 /**
  * @ngdoc filter
  * @name ui.router.state.filter:isState

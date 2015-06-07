@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 // Promise testing support
 angular.module('ngMock').config(function ($provide) {
   $provide.decorator('$q', function ($delegate, $rootScope) {

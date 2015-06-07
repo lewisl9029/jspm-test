@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 routerFiles = {
   src: [
     'src/common.js',

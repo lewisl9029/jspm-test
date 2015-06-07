@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 /**
  * @license AngularJS v1.1.5
  * (c) 2010-2012 Google, Inc. http://angularjs.org

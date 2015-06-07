@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 angular.module('uiRouterSample')
 
     // A RESTful factory for retreiving contacts from 'contacts.json'

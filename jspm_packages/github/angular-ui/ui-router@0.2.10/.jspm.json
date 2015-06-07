@@ -64,9 +64,19 @@
   },
   "main": "release/angular-ui-router",
   "jspm": {
+    "shim": {
+      "release/angular-ui-router": [
+        "angular"
+      ]
+    },
     "dependencies": {
       "angular": "jspm:angular@^1.3.2"
     }
+  },
+  "shim": {
+    "release/angular-ui-router": [
+      "angular"
+    ]
   },
   "registry": "github",
   "dependencies": {

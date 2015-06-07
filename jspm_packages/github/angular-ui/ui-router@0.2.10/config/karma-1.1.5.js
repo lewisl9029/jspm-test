@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 // Karma configuration file
 module.exports = function (karma) {
 

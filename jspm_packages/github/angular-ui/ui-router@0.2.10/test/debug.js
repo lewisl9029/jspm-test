@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 /**
  * Karma module file used for debugging UI Router within the test suite.
  * To start, open a terminal from within the UI Router project directory

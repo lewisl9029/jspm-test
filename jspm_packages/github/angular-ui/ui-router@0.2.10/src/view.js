@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 
 $ViewProvider.$inject = [];
 function $ViewProvider() {

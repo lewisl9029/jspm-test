@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 /**
  * @ngdoc object
  * @name ui.router.router.$urlRouterProvider

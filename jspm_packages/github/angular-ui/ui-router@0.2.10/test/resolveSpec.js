@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 describe("resolve", function () {
   
   var $r, tick;

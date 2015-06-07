@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 beforeEach(function() {
 
   function cssMatcher(presentClasses, absentClasses) {

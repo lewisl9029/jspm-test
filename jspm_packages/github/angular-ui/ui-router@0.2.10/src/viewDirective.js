@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 /**
  * @ngdoc directive
  * @name ui.router.state.directive:ui-view

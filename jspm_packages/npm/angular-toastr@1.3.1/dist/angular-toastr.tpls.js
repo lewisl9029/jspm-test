@@ -1,5 +1,6 @@
 /* */ 
-"format cjs";
+"format global";
+"deps angular";
 (function() {
   'use strict';
 

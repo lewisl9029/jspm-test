@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 describe('templateFactory', function () {
   
   beforeEach(module('ui.router.util'));

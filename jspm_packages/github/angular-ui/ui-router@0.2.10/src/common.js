@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 /*jshint globalstrict:true*/
 /*global angular:false*/
 'use strict';

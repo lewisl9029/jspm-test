@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 /*jshint browser: true, indent: 2 */
 /*global describe: false, it: false, beforeEach: false, expect: false, resolvedValue: false, module: false, inject: false, angular: false */
 

@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 describe("UrlRouter", function () {
 
   var $urp, $ur, location, match, scope;

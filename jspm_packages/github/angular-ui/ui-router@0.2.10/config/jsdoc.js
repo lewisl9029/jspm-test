@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 {
   "plugins": [ "plugins/markdown" ],
   "markdown": {

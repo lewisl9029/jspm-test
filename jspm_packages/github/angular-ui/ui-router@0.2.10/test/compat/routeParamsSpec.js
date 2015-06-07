@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 // 'use strict';
 
 // describe('$routeParams', function() {

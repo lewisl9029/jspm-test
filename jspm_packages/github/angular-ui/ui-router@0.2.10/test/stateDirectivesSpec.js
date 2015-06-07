@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 describe('uiStateRef', function() {
 
   var el, template, scope, document;

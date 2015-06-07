@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 describe('state', function () {
 
   var stateProvider, locationProvider, templateParams, ctrlName;

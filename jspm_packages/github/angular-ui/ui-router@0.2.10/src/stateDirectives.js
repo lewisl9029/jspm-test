@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 function parseStateRef(ref) {
   var parsed = ref.replace(/\n/g, " ").match(/^([^(]+?)\s*(\((.*)\))?$/);
   if (!parsed || parsed.length !== 4) throw new Error("Invalid state ref '" + ref + "'");

@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 describe('uiView', function () {
   'use strict';
 

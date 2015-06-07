@@ -1,3 +1,5 @@
+/* */ 
+"format global";
 describe("UrlMatcher", function () {
   it("matches static URLs", function () {
     expect(new UrlMatcher('/hello/world').exec('/hello/world')).toEqual({});
